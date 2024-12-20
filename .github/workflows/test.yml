@@ -1,0 +1,11 @@
+name: Gitea Actions Demo
+run-name: s testing out Gitea Actions 🚀
+on: [push]
+
+jobs:
+  Explore-Gitea-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Docker Setup Buildx
+        uses: docker/setup-buildx-action@v3.8.0
+            
